@@ -4,13 +4,21 @@ var score = 0;
 
 console.log(`Welcome ${userName} to DO YOU KNOW Novesh?`);  // Welcome message
 
-
 var questions = [{
   question: "What is my birth-month? ",
   answer: "july"
 }, {
   question: "In which state I was born? ",
   answer: "maharashtra"
+}, {
+  question: "Which language is my mother tongue? ",
+  answer: "hindi"
+}, {
+  question: "Which is my favourite sport? ",
+  answer: "Cricket"
+}, {
+  question: "Which is my favourite season? ",
+  answer: "winter"
 }]
 
 function play(arr) {
